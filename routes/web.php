@@ -19,3 +19,6 @@ Route::get('/soma/{num1}/{num2}', function ($num1, $num2) {
 });
 
 
+Route::get('/criar-conta', function () {
+    return view('criar-conta');
+});
